@@ -1,0 +1,80 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.28.8-Firenze">
+  <identifier>Urban Areas</identifier>
+  <parentidentifier></parentidentifier>
+  <language></language>
+  <type>dataset</type>
+  <title>Urban Areas</title>
+  <abstract>The Urban Areas dataset was compiled on May 31, 2023 from the United States Census Bureau (USCB) and is part of the U.S. Department of Transportation (USDOT)/Bureau of Transportation Statistics (BTS) National Transportation Atlas Database (NTAD). The TIGER/Line shapefiles and related database files (.dbf) are an extract of selected geographic and cartographic information from the U.S. Census Bureau's Master Address File / Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) Database (MTDB). The MTDB represents a seamless national file with no overlaps or gaps between parts, however, each TIGER/Line shapefile is designed to stand alone as an independent data set, or they can be combined to cover the entire nation. After each decennial census, the Census Bureau delineates urban areas that represent densely developed territory, encompassing residential, commercial, and other nonresidential urban land uses. In general, this territory consists of areas of high population density and urban land use resulting in a representation of the urban footprint. There are 2,645 Urban Areas (UAs) in this data release with either a minimum population of 5,000 or a housing unit count of 2,000 units. Each urban area is identified by a 5-character numeric census code that may contain leading zeroes.
+
+The Census Bureau releases extracts of the MAF/TIGER database in the form of TIGER/Line Shapefiles for others to use in geographic information systems (GIS) or for other geographic applications.</abstract>
+  <keywords vocabulary="Buscar claves">
+    <keyword>boundaries</keyword>
+    <keyword>USA</keyword>
+    <keyword>National</keyword>
+    <keyword>NTAD</keyword>
+    <keyword>National Transportation Atlas Database</keyword>
+    <keyword>Transportation</keyword>
+    <keyword>Atlas</keyword>
+    <keyword>Database</keyword>
+    <keyword>Urban</keyword>
+    <keyword>areas</keyword>
+    <keyword>urbanized</keyword>
+    <keyword>urbanized areas</keyword>
+    <keyword>UA</keyword>
+  </keywords>
+  <keywords vocabulary="gmd:topicCategory">
+    <keyword>boundaries</keyword>
+    <keyword>NTAD</keyword>
+    <keyword>National Transportation Atlas Database</keyword>
+    <keyword>Transportation</keyword>
+    <keyword>Atlas</keyword>
+    <keyword>Database</keyword>
+    <keyword>Urban</keyword>
+    <keyword>areas</keyword>
+    <keyword>urbanized</keyword>
+    <keyword>urbanized areas</keyword>
+    <keyword>UA</keyword>
+  </keywords>
+  <contact>
+    <contactAddress>
+      <type>both</type>
+      <address>4600 Silver Hill Road</address>
+      <city>Washington</city>
+      <administrativearea>DC</administrativearea>
+      <postalcode>20233</postalcode>
+      <country>United States</country>
+    </contactAddress>
+    <name></name>
+    <organization>United States Census Bureau (USCB)</organization>
+    <position></position>
+    <voice>301-763-1128</voice>
+    <fax></fax>
+    <email>geo.geography@census.gov</email>
+    <role>Punto de contacto</role>
+  </contact>
+  <links>
+    <link description="" type="download" url="https://doi.org/10.21949/1522282" mimeType="" size="" name="Open Data Catalog" format=""/>
+  </links>
+  <fees></fees>
+  <constraints type="Limitaciones de uso">The TIGER/Line Shapefile products are not copyrighted however TIGER/Line and Census TIGER are registered trademarks of the U.S. Census Bureau. These products are free to use in a product or publication, however acknowledgement must be given to the U.S. Census Bureau as the source. The boundary information in the TIGER/Line Shapefiles are for statistical data collection and tabulation purposes only; their depiction and designation for statistical purposes does not constitute a determination of jurisdictional authority or rights of ownership or entitlement and they are not legal land descriptions. Coordinates in the TIGER/Line shapefiles have six implied decimal places, but the positional accuracy of these coordinates is not as great as the six decimal places suggest.</constraints>
+  <constraints type="Limitaciones de uso">The TIGER/Line Shapefile products are not copyrighted however TIGER/Line and Census TIGER are registered trademarks of the U.S. Census Bureau. These products are free to use in a product or publication, however acknowledgement must be given to the U.S. Census Bureau as the source. The boundary information in the TIGER/Line Shapefiles are for statistical data collection and tabulation purposes only; their depiction and designation for statistical purposes does not constitute a determination of jurisdictional authority or rights of ownership or entitlement and they are not legal land descriptions. Coordinates in the TIGER/Line shapefiles have six implied decimal places, but the positional accuracy of these coordinates is not as great as the six decimal places suggest.</constraints>
+  <rights>Acknowledgment of the U.S. Department of Commerce, U.S. Census Bureau, Geography Division, and the Bureau of Transportation Statistics (BTS) [distributor].</rights>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt></wkt>
+      <proj4></proj4>
+      <srsid>0</srsid>
+      <srid>0</srid>
+      <authid></authid>
+      <description></description>
+      <projectionacronym></projectionacronym>
+      <ellipsoidacronym></ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial crs="EPSG:4326" minz="0" maxx="146.15441799999999262" maxy="71.43978599999999801" miny="-14.60181299999999993" dimensions="2" minx="-178.4435929999999928" maxz="0"/>
+  </extent>
+</qgis>
